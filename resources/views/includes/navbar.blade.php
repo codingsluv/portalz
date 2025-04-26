@@ -6,8 +6,8 @@
             <!-- Logo -->
             <a href="{{ route('landing') }}" class="flex items-center gap-2">
                 <div class="flex items-center gap-2">
-                    <img src="{{ asset('assets/img/Logo.png') }}" alt="Logo" class="w-8 lg:w-10">
-                    <p class="text-lg lg:text-xl font-bold">Kalbar Vibez</p>
+                    <img src="{{ asset('assets/img/Logo.png') }}" alt="Logo" class="w-9 lg:w-10" style="height: 40px;">
+                    <p class="text-lg lg:text-xl font-bold">Fun-Dev's</p>
                 </div>
             </a>
             <button class="lg:hidden text-primary text-2xl focus:outline-none" id="menu-toggle">
@@ -42,7 +42,7 @@
                 <img src="{{ asset('assets/img/search.png') }}" alt="search" class="w-4">
             </span>
         </div>
-        <a href="login.html"
+        <a href="/admin/login"
             class="bg-primary px-8 py-2 rounded-full text-white font-semibold h-fit text-sm lg:text-base">
             Masuk
         </a>

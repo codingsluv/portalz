@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', $author->name)
+@section('title', $author->username)
 
 @section('content')
 

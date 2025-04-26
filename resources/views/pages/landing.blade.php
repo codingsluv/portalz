@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'KalBar Vibez | Baca Berita Kalimantan Barat')
+@section('title', 'Fun-Dev`s | Humor Programmer')
 
 @section('content')
     <!-- swiper -->
